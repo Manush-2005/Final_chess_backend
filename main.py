@@ -8,8 +8,8 @@ import struct
 
 app = FastAPI()
 
-UPLOAD_DIR = "uploads"
-OUTPUT_DIR = "outputs"
+UPLOAD_DIR = "/tmp/uploads"
+OUTPUT_DIR = "/tmp/outputs"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
