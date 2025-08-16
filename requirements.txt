@@ -1,3 +1,4 @@
 chess
 fastapi
 uvicorn
+python-multipart
